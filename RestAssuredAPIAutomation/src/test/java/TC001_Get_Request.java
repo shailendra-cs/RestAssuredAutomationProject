@@ -64,7 +64,7 @@ public class TC001_Get_Request extends TestBase {
 		@Test(priority=9)
 		public void Chectetst() throws InterruptedException
 		{
-			System.out.println("i m here");
+			System.out.println("i am here");
 			GetCity();
 		}
 			
