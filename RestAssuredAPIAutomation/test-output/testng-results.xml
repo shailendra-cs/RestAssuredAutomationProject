@@ -1,88 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="9" passed="7" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-10T12:20:35 IST" name="Default suite" finished-at="2020-06-10T12:20:41 IST" duration-ms="6869">
+  <suite name="Default suite" duration-ms="4259" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
     <groups>
     </groups>
-    <test started-at="2020-06-10T12:20:35 IST" name="Default test" finished-at="2020-06-10T12:20:41 IST" duration-ms="6869">
-      <class name="TC001_Get_Request">
-        <test-method is-config="true" signature="GetCity()[pri:0, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:35 IST" name="GetCity" finished-at="2020-06-10T12:20:40 IST" duration-ms="5156" status="PASS">
+    <test name="Default test" duration-ms="4259" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
+      <class name="TC001_Post_Request">
+        <test-method status="PASS" signature="VerifyMobileNumber()[pri:0, instance:TC001_Post_Request@9660f4e]" name="VerifyMobileNumber" duration-ms="4183" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetCity -->
-        <test-method signature="checkResponseBody()[pri:1, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:40 IST" name="checkResponseBody" finished-at="2020-06-10T12:20:40 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:2, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:40 IST" name="checkStatusCode" finished-at="2020-06-10T12:20:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkResponseTime()[pri:3, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:40 IST" name="checkResponseTime" finished-at="2020-06-10T12:20:40 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at TC001_Get_Request.checkResponseTime(TC001_Get_Request.java:99)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusLine()[pri:4, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:40 IST" name="checkStatusLine" finished-at="2020-06-10T12:20:40 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-        <test-method signature="checkContentType()[pri:5, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:40 IST" name="checkContentType" finished-at="2020-06-10T12:20:41 IST" duration-ms="630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkServerType()[pri:6, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:41 IST" name="checkServerType" finished-at="2020-06-10T12:20:41 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkServerType -->
-        <test-method signature="checkContentLength()[pri:8, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:41 IST" name="checkContentLength" finished-at="2020-06-10T12:20:41 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentLength -->
-        <test-method signature="Chectetst()[pri:9, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:41 IST" name="Chectetst" finished-at="2020-06-10T12:20:41 IST" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Chectetst -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TC001_Get_Request@4a94ee4]" started-at="2020-06-10T12:20:41 IST" name="tearDown" finished-at="2020-06-10T12:20:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TC001_Get_Request -->
+        </test-method> <!-- VerifyMobileNumber -->
+      </class> <!-- TC001_Post_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

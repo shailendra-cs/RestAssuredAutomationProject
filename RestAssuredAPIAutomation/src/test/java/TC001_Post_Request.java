@@ -14,7 +14,7 @@ public class TC001_Post_Request {
 	{
 		
 		//Specify BaseURI
-		RestAssured.baseURI="https://dloyaltyadmin.cn.bmwgroup.com";
+		RestAssured.baseURI="https://iloyaltyadmin.cn.bmwgroup.com";
 
 		//Request object
 		RequestSpecification httprequest=RestAssured.given();

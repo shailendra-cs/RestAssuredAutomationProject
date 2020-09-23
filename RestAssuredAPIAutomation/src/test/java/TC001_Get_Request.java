@@ -22,7 +22,7 @@ public class TC001_Get_Request extends TestBase {
 		log.debug("**********Started TC001_Get_Request************");
 
 		//Specify BaseURI
-		RestAssured.baseURI="https://dloyaltyadmin.cn.bmwgroup.com";
+		RestAssured.baseURI="https://iloyaltyadmin.cn.bmwgroup.com";
 
 		//Request object
 		httpRequest=RestAssured.given();
@@ -38,6 +38,7 @@ public class TC001_Get_Request extends TestBase {
 		//return response;
 		String contentType=response.header("Content-Type");
 //		System.out.println(contentType);
+		
 		log.debug("Content-Type is:" +contentType);
 		Assert.assertEquals(contentType,"application/json; charset=utf-8");
 		
