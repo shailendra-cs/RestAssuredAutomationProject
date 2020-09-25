@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4259" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
+  <suite name="Default suite" duration-ms="10" started-at="2020-09-23T16:22:42 IST" finished-at="2020-09-23T16:22:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4259" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
-      <class name="TC001_Post_Request">
-        <test-method status="PASS" signature="VerifyMobileNumber()[pri:0, instance:TC001_Post_Request@9660f4e]" name="VerifyMobileNumber" duration-ms="4183" started-at="2020-09-18T16:58:30 IST" finished-at="2020-09-18T16:58:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyMobileNumber -->
-      </class> <!-- TC001_Post_Request -->
+    <test name="Default test" duration-ms="10" started-at="2020-09-23T16:22:42 IST" finished-at="2020-09-23T16:22:42 IST">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

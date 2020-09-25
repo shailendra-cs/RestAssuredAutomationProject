@@ -1,19 +1,15 @@
-
-
 import java.util.List;
 import java.util.Map;
- 
+
 import org.junit.Assert;
- 
+
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-
-
-public class TC001_Post_Request {
-
+public class TC002_PostRequet {
+	
 	
 	public static void main(String[] args) {
         String userID = "9b5f49ab-eea9-45f4-9d66-bcf56a531b85";
@@ -92,5 +88,5 @@ public class TC001_Post_Request {
         List<Map<String, String>> booksOfUser = JsonPath.from(jsonString).get("books");
         Assert.assertEquals(0, booksOfUser.size());
     }
-}
 
+}

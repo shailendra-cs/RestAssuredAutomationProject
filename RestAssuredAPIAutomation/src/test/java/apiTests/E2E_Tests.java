@@ -1,4 +1,4 @@
-
+package apiTests;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 
 
 
-public class TC001_Post_Request {
+public class E2E_Tests {
 
 	
 	public static void main(String[] args) {
